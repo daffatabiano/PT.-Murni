@@ -5,7 +5,7 @@ const contactImg = '/contact.jpg'
 export default function ContactSection (){ 
     return (
         <section className="container sm:py-24 py-12 flex sm:flex-row flex-col justify-between gap-8">
-            <article className="flex flex-col gap-12">
+            <article className="flex flex-col gap-12 sm:w-1/2">
                 <p className="text-accent font-semibold">Get in Touch</p>
                 <h1 className="font-semibold text text-4xl">Let Us Know by Sent Your
                  <br /> Message For More Information</h1>
