@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary : #252525 ;
+    --color-accent : #A85C01 ;
+    --color-textGray : #8A8A8A ;
+
+    --font-sans : 'Poppins', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+    
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 4rem;
+
+    --container-padding: 2rem;
+    --container-padding-sm: 1rem;
+    --container-padding-md: 2rem;
+    --container-padding-lg: 3rem;
+    --container-padding-xl: 4rem;
+    --container-padding-2xl: 5rem;
+}
+
+@layer base {
+    body {
+        @apply font-sans;
+    }
+}
+
+@layer components {
+    .font-montserrat {
+        font-family: var(--font-montserrat)
+    }
+    .container {
+    @apply mx-auto;
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: var(--container-padding-sm);
+      padding-right: var(--container-padding-sm);
+    }
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      padding-left: var(--container-padding-md);
+      padding-right: var(--container-padding-md);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: var(--container-padding-lg);
+      padding-right: var(--container-padding-lg);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .container {
+      padding-left: var(--container-padding-xl);
+      padding-right: var(--container-padding-xl);
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .container {
+      padding-left: var(--container-padding-2xl);
+      padding-right: var(--container-padding-2xl);
+    }
+  }
+}
+
+@layer utilities {
+  .animate-bounce-right {
+    animation: bounce-right 1s infinite;
+  }
+  .group-hover\:animate-bounce-right:hover {
+    animation: bounce-right 1s infinite;
+  }
+}
+
+
+@keyframes bounce-right {
+  0%, 100% {
+    transform: translateX(0);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateX(25%);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
