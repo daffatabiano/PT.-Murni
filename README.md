@@ -129,5 +129,8 @@ mobile      375px       ✅
 Tablet      768px       ✅
 Desktop     1440px      ✅
 
+## Release Link
+https://pt-murni.vercel.app/
+
 ## License 
 This project is private and submitted as part of a technical evaluation. Not for commercial use.
