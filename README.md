@@ -20,7 +20,7 @@ This project is a responsive, pixel-perfect implementation of a Figma design usi
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/daffatabiano/test-pt-murni.git
+git clone https://github.com/daffatabiano/PT.-Murni.git
 cd test-pt-murni
 ```
 
@@ -79,7 +79,7 @@ src/
 
 - Pixel-perfect Figma implementation (desktop, tablet, mobile)
 
-- Semantic, accessible HTML (using <header>, <main>, <footer>, <section>)
+- Semantic, accessible HTML "(using <header>, <main>, <footer>, <section>)"
 
 - Reusable components (Card, Form, Carousel, etc.)
 
