@@ -79,7 +79,7 @@ src/
 
 - Pixel-perfect Figma implementation (desktop, tablet, mobile)
 
-- Semantic, accessible HTML "(using <header>, <main>, <footer>, <section>)"
+- Semantic, accessible HTML using <header>, <main>, <footer>, <section>
 
 - Reusable components (Card, Form, Carousel, etc.)
 
