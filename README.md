@@ -65,7 +65,7 @@ Config Includes :
 - Optimized using Tailwind’s built-in purging system
 
 ## Project Structure
-    src/
+src/
 ├── assets/            # Static images, icons, fonts
 ├── components/        # Reusable UI components (Navbar, Card, Carousel, etc.)
 ├── routes/            # Routing Path.
